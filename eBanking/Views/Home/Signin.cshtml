@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Signin";
+    Layout = null;
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-In to eBanking</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="~/images/e.png">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link href="~/css/Signin.css" rel="stylesheet" />
+</head>
+<body id="page1" class="airlinrbg">
+
+    <div class="Box signin">
+        <div class="SignInbutton">
+            <form>
+                <a asp-area="" asp-controller="Home" asp-action="Secure" type="submit" class="provider">
+                    <img src="~/images/xsense.png" />Signin with XSense</a>
+                @*<div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="email@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="*********">
+                </div>
+                <a asp-area="" asp-controller="Home" asp-action="Index" type="submit" class="btn btn-danger btn-block" style="color: #fff;
+    background-color: #251b1a;
+    border-color: #4e4040;">Login</a>
+                <p class="forgot"><a asp-area="" asp-controller="Home" asp-action="Index"> Forgot Password</a></p>
+                <p class="newsignin">Don't have account? <a asp-area="" asp-controller="Home" asp-action="Index"> Sign Up</a></p>*@
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

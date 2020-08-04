@@ -1,1 +1,1 @@
-# XSense-Razor-C--OIDC-Client
+# XSense-Razor-C#-OIDC-Client
